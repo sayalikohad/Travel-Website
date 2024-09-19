@@ -8,6 +8,10 @@ bars.addEventListener("click",() => {
         opacity: 0,
         duration:.3
     })
+    gsap.from(".menu ul" , {
+        opacity: 0,
+        x: -300
+    })
 })
 
 close.addEventListener("click",() => {
