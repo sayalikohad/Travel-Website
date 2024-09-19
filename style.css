@@ -37,6 +37,11 @@ section {
     width: 100%;
 }
 
+section {
+    padding: 0 8rem;
+    width: 100%;
+}
+
 .label {
     font-size: 1.1rem;
     color:  #666;
@@ -226,6 +231,10 @@ section.home {
     background: #02636e;
 }
 
+/* travel section starts here*/
+
+
+/*travel section ends here*/
 /* media section starts here */
 @media (max-width: 1020px) {
     html {
