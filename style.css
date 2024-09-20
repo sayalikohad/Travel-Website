@@ -37,7 +37,19 @@ section {
     width: 100%;
 }
 
-section {
+.label {
+    font-size: 1.1rem;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.heading {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+section.home {
     padding: 0 8rem;
     width: 100%;
 }
@@ -266,6 +278,48 @@ section.home {
 }
 
 /*travel section ends here*/
+
+/*destination section starts here*/
+.destinatons {
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.destinatons .label {
+    font-size: 1.1rem;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.destinatons .container {
+    width: 100%;
+}
+
+.destinatons .container .container-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.destinatons .container .container-box .heading{
+    max-width: 30rem;
+}
+
+.destinatons .container .container-box .content {
+    max-width: 35rem;
+}
+
+.destinatons .container .container-box .content p {
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/*dextination section ends here*/
 /* media section starts here */
 @media (max-width: 1020px) {
     html {
