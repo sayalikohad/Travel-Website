@@ -275,24 +275,17 @@ section.home {
 
 /*travel section ends here*/
 /*destination section starts here*/
-.destinatons {
+.destinations {
     width: 100%;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
-.destinatons .label {
-    font-size: 1.1rem;
-    color: #666;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-.destinatons .container {
+.destinations .container {
     width: 100%;
 }
 
-.destinatons .container .container-box {
+.destinations .container .container-box {
     width: 100%;
     display: flex;
     align-items: center;
@@ -300,30 +293,30 @@ section.home {
     gap: 1rem;
 }
 
-.destinatons .container .container-box .heading{
+.destinations .container .container-box .heading {
     max-width: 30rem;
 }
 
-.destinatons .container .container-box .content {
+.destinations .container .container-box .content {
     max-width: 35rem;
 }
 
-.destinatons .container .container-box .content p {
+.destinations .container .container-box .content p {
     line-height: 1.7;
     color: #666;
     margin-bottom: 1rem;
 }
 
-.destinatons .container .container-box .content a {
+.destinations .container .container-box .content a {
     color: var(--green-color);
     font-weight: 600;
 }
 
-.destinatons .container .container-box .content a i {
+.destinations .container .container-box .content a i {
     margin-left: .5rem;
 }
 
-.destinatons .container .container-box .content a:hover i {
+.destinations .container .container-box .content a:hover i {
     margin-left: .1rem;
 }
 
@@ -339,7 +332,7 @@ section.home {
     height: 23rem;
     flex-grow: 1;
     overflow: hidden;
-    border-radius: 8rem;
+    border-radius: .8rem;
     position: relative;
 }
 
@@ -351,7 +344,28 @@ section.home {
 }
 
 .gallery .box .text {
-    
+    position: absolute;
+    bottom: 0;
+    padding: 1.5rem 2rem;
+    left: 0;
+    z-index: 1;
+}
+
+.gallery .box .text h2 {
+    font-size: 1.4rem;
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.destinations .container .container-box .heading,
+.destinations .container .container-box .content {
+    transform: translate(-200px);
+    opacity: 0;
+}
+
+.destinations .gallery .box {
+    transform: translate(0, 100px);
+    opacity: 0;
 }
 
 /*dextination section ends here*/
