@@ -319,6 +319,15 @@ section.home {
     margin-bottom: 1rem;
 }
 
+.destinatons .container .container-box .content a {
+    color: var(--green-color);
+    font-weight: 600;
+}
+
+.destinatons .container .container-box .content a i {
+    margin-left: .5rem;
+}
+
 /*dextination section ends here*/
 /* media section starts here */
 @media (max-width: 1020px) {
