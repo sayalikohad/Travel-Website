@@ -369,6 +369,90 @@ section.home {
 }
 
 /*dextination section ends here*/
+
+/*featured section starts here*/
+.featured {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.featured .gallery .box:first-child {
+    border: 1px solid rgba(0,0,0,.3);
+    padding: 2rem 1.5rem;
+}
+
+.featured .gallery .box:first-child h2 {
+    margin-bottom: .5rem;
+}
+
+.featured .gallery .box:first-child p {
+    margin-bottom: .5rem;
+    color: #666;
+}
+
+.featured .gallery .box:first-child a {
+    position: absolute;
+    bottom: 2rem;
+    padding: .4rem 1rem;
+    color: var(--white-color);
+    background: var(--green-color);
+    border-radius: 3rem;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.featured .gallery .box:first-child a:hover {
+    background: #02636e;
+}
+
+.featured .gallery .box:first-child .image {
+    width: 40%;
+    position: absolute;
+    bottom: -1rem;
+    right: 2rem;
+}
+
+.featured .gallery .box .content {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem 2rem;
+}
+
+.featured .gallery .box .content h2 {
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.featured .gallery .box .content p {
+    font-size: .9rem;
+    color: #eee;
+}
+
+.featured .gallery .box .content .review-and-idr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured .gallery .box .content .review-and-idr .review {
+    font-size: .9rem;
+    color: #eee;
+}
+
+.featured .gallery .box .content .review-and-idr .review i {
+    color: #ffa600;
+}
+
+.featured .gallery .box .content .review-and-idr p {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--white-color);
+}
+/*featured section ends here*/
+
 /* media section starts here */
 @media (max-width: 1020px) {
     html {
