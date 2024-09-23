@@ -500,6 +500,11 @@ section.home {
     padding: 2rem;
     border-radius: .7rem;
 }
+
+.feedback .voices .voice .profile {
+    display: flex;
+    align-items: center;
+}
 /*feedback section ends here*/
 
 /* media section starts here */
