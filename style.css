@@ -527,7 +527,9 @@ section.home {
     color: #000;
 }
 
-
+.feedback .voices .voice p {
+    margin: 1rem;
+}
 /*feedback section ends here*/
 
 /* media section starts here */
