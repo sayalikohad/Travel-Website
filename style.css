@@ -453,6 +453,48 @@ section.home {
 }
 /*featured section ends here*/
 
+/*feedback section starts here*/
+.feedback {
+    background: url("section-background.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.feedback .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feedback .container h4 {
+    color: rgb(255 255 255/90%);
+}
+
+.feedback .container h2 {
+    max-width: 40rem;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.feedback .container p {
+    color: #eee;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.feedback .voices {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+/*feedback section ends here*/
+
 /* media section starts here */
 @media (max-width: 1020px) {
     html {
