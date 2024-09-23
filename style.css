@@ -505,6 +505,16 @@ section.home {
     display: flex;
     align-items: center;
 }
+
+.feedback .voices .voice .profile img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2rem;
+}
+
+
 /*feedback section ends here*/
 
 /* media section starts here */
