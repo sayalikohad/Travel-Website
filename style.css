@@ -629,6 +629,10 @@ section.home {
     .destinations .container .container-box .content {
         font-size: .8rem;
     }
+
+    .feedback .container p {
+        font-size: .9rem;
+    }
 }
 
 @media (max-width: 607px) {
