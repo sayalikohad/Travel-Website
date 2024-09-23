@@ -15,5 +15,5 @@ bars.addEventListener("click",() => {
 })
 
 close.addEventListener("click",() => {
-    menu.classList.remove("active")
+    menu.classList.remove("active");
 })
