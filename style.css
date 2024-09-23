@@ -514,6 +514,19 @@ section.home {
     border-radius: 2rem;
 }
 
+.feedback .voices .voice .profile .detail {
+    margin-left: 1rem;
+}
+
+.feedback .voices .voice .profile .detail li {
+    list-style: none;
+}
+
+.feedback .voices .voice .profile .detail li:first-child {
+    font-size: 1.1rem;
+    color: #000;
+}
+
 
 /*feedback section ends here*/
 
