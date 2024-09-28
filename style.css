@@ -586,6 +586,15 @@ section.home {
 .article .container .latest-article .author p {
     font-size: .9rem;
 }
+
+.article .container .more-article {
+    display: grid;
+    gap: 1rem;
+}
+
+.article .container .more-article .box {
+    
+}
 /*article section ends here*/
 
 /* media section starts here */
