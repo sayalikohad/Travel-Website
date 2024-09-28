@@ -593,7 +593,9 @@ section.home {
 }
 
 .article .container .more-article .box {
-    
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
 }
 /*article section ends here*/
 
