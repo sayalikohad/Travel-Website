@@ -582,6 +582,10 @@ section.home {
     height: 30px;
     border-radius: 3rem;
 }
+
+.article .container .latest-article .author p {
+    font-size: .9rem;
+}
 /*article section ends here*/
 
 /* media section starts here */
