@@ -597,6 +597,14 @@ section.home {
     gap: 1.5rem;
     align-items: center;
 }
+
+.article .container .more-article .box img {
+    width: 115px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: .5rem;
+}
 /*article section ends here*/
 
 /* media section starts here */
