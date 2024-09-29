@@ -80,8 +80,10 @@ function galleryAnimation(triggerSelector, boxSelectors) {
 
     boxSelectors.forEach((boxSelector) => {
         timeline.to(boxSelector, {
-
-        })
+            y: 0,
+            opacity: 1,
+            duration: 1,
+        });
     })
 }
 
