@@ -730,4 +730,12 @@ section.home {
         font-size: .8rem;
     }
 }
+
+@media (max-width: 457px) {
+   .article .container .latest-article,
+   .article .container .more-article {
+    width: 100%;
+    flex: 1 0 250px;
+   }
+}
 /*media section end here */
