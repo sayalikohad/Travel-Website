@@ -710,6 +710,21 @@ footer .footer .container span {
     border-radius: .3rem;
     font-weight: 500;
 }
+
+footer .footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: rgb(255 255 255/80%);
+    text-align: center;
+}
+
+footer .footer .copyright a {
+    color: rgb(255 255 255/80%);
+    margin-left: 1rem;
+    text-align: center;
+}
 /*footer section ends here*/
 
 /* media section starts here */
@@ -720,6 +735,10 @@ footer .footer .container span {
 
     section {
         padding: 0 2rem;
+    }
+
+    footer .footer {
+        padding: 2rem;
     }
 }
 
