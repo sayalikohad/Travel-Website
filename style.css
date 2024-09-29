@@ -610,6 +610,12 @@ section.home {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+.article .container .more-article .text li {
+    margin-top: .3rem;
+    list-style: none;
+    color: #666;
+}
 /*article section ends here*/
 
 /* media section starts here */
