@@ -84,7 +84,7 @@ function galleryAnimation(triggerSelector, boxSelectors) {
             opacity: 1,
             duration: 1,
         });
-    })
+    });
 }
 
 
@@ -96,3 +96,5 @@ animateContent([".home .content h5, .home .content h1, .home .content p, .home .
 scrollTirggerAnimation(".travel", [".travel .box1", ".travel .box2", ".travel .box3"]);
 
 swipeAnimation(".destinatons", [".destinatons .heading", ".destinatons .content"]);
+
+galleryAnimation("")
