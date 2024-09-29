@@ -33,7 +33,9 @@ function animateContent(selector) {
 
 function scrollTirggerAnimation(triggerSelector, boxSelectors) {
     const timeline = gsap.timeline({
-        
+        scrollTrigger : {
+            
+        }
     })
 }
 
