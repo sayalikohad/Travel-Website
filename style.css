@@ -639,6 +639,23 @@ footer .footer .container {
     border-bottom: 1px solid var(--green-color);
     gap: 2rem;
 }
+
+footer .footer .container .detail {
+    max-width: 32rem;
+}
+
+footer .footer .container .detail h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--white-color);
+}
+
+footer .footer .container .detail p {
+    line-height: 1.6;
+    color: rgb(255 255 255/80%);
+    margin-bottom: 1.5rem;
+}
 /*footer section ends here*/
 
 /* media section starts here */
