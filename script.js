@@ -76,6 +76,10 @@ function galleryAnimation(triggerSelector, boxSelectors) {
             end: "bottom 100%",
             scrub: 1,
         },
+    });
+
+    boxSelectors.forEach((boxSelectors) => {
+        
     })
 }
 
