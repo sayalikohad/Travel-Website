@@ -42,7 +42,9 @@ function scrollTirggerAnimation(triggerSelector, boxSelectors) {
     });
 
     boxSelectors.forEach((boxSelectors) => {
-        
+        timeline.to(boxSelectors, {
+            
+        })
     })
 }
 
