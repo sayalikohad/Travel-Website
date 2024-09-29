@@ -631,6 +631,14 @@ footer .footer {
     padding: 6rem 7rem;
     padding-bottom: 1rem;
 }
+
+footer .footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--green-color);
+    gap: 2rem;
+}
 /*footer section ends here*/
 
 /* media section starts here */
