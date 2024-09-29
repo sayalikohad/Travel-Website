@@ -755,6 +755,10 @@ footer .footer .copyright a {
         flex-direction: column;
         align-items: flex-start;
     }
+
+    footer .footer .container {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 767px) {
