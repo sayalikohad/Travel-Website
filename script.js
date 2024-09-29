@@ -52,7 +52,9 @@ function scrollTirggerAnimation(triggerSelector, boxSelectors) {
 
 function swipeAnimation(triggerSelector, boxSelectors) {
     const timeline = gsap.timeline({
-        
+        scrollTrigger: {
+            
+        }
     })
 }
 
