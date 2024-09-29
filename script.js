@@ -59,6 +59,9 @@ function swipeAnimation(triggerSelector, boxSelectors) {
             scrub: 1,
         },
     })
+    boxSelectors.forEach((boxSelectors) => {
+        
+    })
 }
 
 
