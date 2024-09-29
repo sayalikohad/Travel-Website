@@ -12,8 +12,14 @@ bars.addEventListener("click",() => {
         opacity: 0,
         x: -300
     })
-})
+});
 
 close.addEventListener("click",() => {
-    menu.classList.remove("active");
-})
+    menu.classList.remove("active")
+});
+
+function animateContent(selector) {
+    selector.forEach((selector) => {
+        
+    })
+}
