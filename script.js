@@ -35,7 +35,9 @@ function scrollTirggerAnimation(triggerSelector, boxSelectors) {
     const timeline = gsap.timeline({
         scrollTrigger : {
             trigger: triggerSelector,
-            
+            start: "top 50%",
+            end: "top 80%",
+            scrub: 1,
         }
     })
 }
