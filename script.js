@@ -41,7 +41,9 @@ function scrollTirggerAnimation(triggerSelector, boxSelectors) {
         },
     });
 
-    
+    boxSelectors.forEach((boxSelectors) => {
+        
+    })
 }
 
 animateContent([".home .content h5, .home .content h1, .home .content p, .home .content .search "]);
