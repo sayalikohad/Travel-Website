@@ -670,6 +670,12 @@ footer .footer .container .detail a {
     padding: 1px 0;
     display: inline-block;
 }
+
+footer .footer .container .detail .social {
+    display: flex;
+    gap: .8rem;
+    margin-top: 1rem;
+}
 /*footer section ends here*/
 
 /* media section starts here */
