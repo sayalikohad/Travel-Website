@@ -73,7 +73,9 @@ function galleryAnimation(triggerSelector, boxSelectors) {
         scrollTrigger: {
             trigger: triggerSelector,
             start: "top 100%",
-        }
+            end: "bottom 100%",
+            scrub: 1,
+        },
     })
 }
 
