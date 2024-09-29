@@ -56,4 +56,4 @@ function scrollTirggerAnimation(triggerSelector, boxSelectors) {
 
 animateContent([".home .content h5, .home .content h1, .home .content p, .home .content .search "]);
 
-scrollTirggerAnimation(".travel", [".travel .box1", ".travel .box1", ".travel .box1"])
+scrollTirggerAnimation(".travel", [".travel .box1", ".travel .box2", ".travel .box3"])
