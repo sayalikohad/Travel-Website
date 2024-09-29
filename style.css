@@ -676,6 +676,12 @@ footer .footer .container .detail .social {
     gap: .8rem;
     margin-top: 1rem;
 }
+footer .footer .container .detail .social a {
+    border: none;
+    font-size: 1.3rem;
+    color: var(--white-color);
+}
+
 /*footer section ends here*/
 
 /* media section starts here */
