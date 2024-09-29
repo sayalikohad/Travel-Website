@@ -60,7 +60,10 @@ function swipeAnimation(triggerSelector, boxSelectors) {
         },
     })
     boxSelectors.forEach((boxSelectors) => {
-        
+        timeline.to(boxSelector, {
+            x: 0,
+            
+        })
     })
 }
 
