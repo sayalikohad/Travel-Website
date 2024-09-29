@@ -618,6 +618,14 @@ section.home {
 }
 /*article section ends here*/
 
+/*footer section starts here*/
+
+footer {
+    padding: 1rem;
+    width: 100%;
+}
+/*footer section ends here*/
+
 /* media section starts here */
 @media (max-width: 1020px) {
     html {
