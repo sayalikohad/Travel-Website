@@ -78,8 +78,10 @@ function galleryAnimation(triggerSelector, boxSelectors) {
         },
     });
 
-    boxSelectors.forEach((boxSelectors) => {
-        
+    boxSelectors.forEach((boxSelector) => {
+        timeline.to(boxSelector, {
+
+        })
     })
 }
 
