@@ -32,7 +32,9 @@ function animateContent(selector) {
 }
 
 function scrollTirggerAnimation(triggerSelector, boxSelectors) {
-    
+    const timeline = gsap.timeline({
+        
+    })
 }
 
 animateContent([".home .content h5, .home .content h1, .home .content p, .home .content .search "]);
