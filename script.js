@@ -31,4 +31,4 @@ function animateContent(selector) {
     });
 }
 
-animateContent([".home .content h5, .home .content h1, .home "])
+animateContent([".home .content h5, .home .content h1, .home .content p, "])
