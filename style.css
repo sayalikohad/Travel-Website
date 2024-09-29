@@ -737,5 +737,14 @@ section.home {
     width: 100%;
     flex: 1 0 250px;
    }
+
+   .article .container .more-article .box img {
+    width: 100px;
+    height: 85px;
+   }
+
+   .article .container .more-article .text h3 {
+    font-size: 1.1rem;
+   }
 }
 /*media section end here */
