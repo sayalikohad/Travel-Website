@@ -689,6 +689,14 @@ footer .footer .container h4 {
     color: var(--white-color);
 }
 
+footer .footer .container li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+footer .footer .container a {
+    color: rgb(255 255 255/80%);
+}
 /*footer section ends here*/
 
 /* media section starts here */
