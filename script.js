@@ -58,7 +58,7 @@ function swipeAnimation(triggerSelector, boxSelectors) {
             end: "top 100%",
             scrub: 1,
         },
-    })
+    });
     boxSelectors.forEach((boxSelectors) => {
         timeline.to(boxSelector, {
             x: 0,
@@ -66,6 +66,10 @@ function swipeAnimation(triggerSelector, boxSelectors) {
             opacity: 1,
         });
     });
+}
+
+function galleryAnimation(triggerSelector, boxSelectors) {
+    
 }
 
 
@@ -76,4 +80,4 @@ animateContent([".home .content h5, .home .content h1, .home .content p, .home .
 
 scrollTirggerAnimation(".travel", [".travel .box1", ".travel .box2", ".travel .box3"]);
 
-swipeAnimation("destinatons", [".destinatons .heading", ".destinatons .content"])
+swipeAnimation(".destinatons", [".destinatons .heading", ".destinatons .content"]);
