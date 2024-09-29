@@ -38,8 +38,10 @@ function scrollTirggerAnimation(triggerSelector, boxSelectors) {
             start: "top 50%",
             end: "top 80%",
             scrub: 1,
-        }
-    })
+        },
+    });
+
+    
 }
 
 animateContent([".home .content h5, .home .content h1, .home .content p, .home .content .search "]);
