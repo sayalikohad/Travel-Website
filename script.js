@@ -97,4 +97,4 @@ scrollTirggerAnimation(".travel", [".travel .box1", ".travel .box2", ".travel .b
 
 swipeAnimation(".destinatons", [".destinatons .heading", ".destinatons .content"]);
 
-galleryAnimation(".gallery .box")
+galleryAnimation(".destinatons .gallery", [".destinatons .gallery .box1", ".destinatons .gallery .box2"])
