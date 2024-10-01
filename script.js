@@ -107,4 +107,4 @@ galleryAnimation(".destinatons .gallery", [".destinatons .gallery .box1", ".dest
 
 galleryAnimation(".featured .gallery", [".featured .gallery .box1", ".featured .gallery .box2", ".featured .gallery .box3", ".featured.gallery .box4"])
 
-galleryAnimation()
+galleryAnimation(".feedback .voices",)
