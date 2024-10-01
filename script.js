@@ -102,3 +102,5 @@ swipeAnimation(".destinatons", [".destinatons .heading", ".destinatons .content"
 galleryAnimation(".destinatons .gallery", [".destinatons .gallery .box1", ".destinatons .gallery .box2", ".destinatons .gallery .box3", ".destinatons .gallery .box4", ".destinatons .gallery .box5"])
 
 galleryAnimation(".featured .gallery", [".featured .gallery .box1", ".featured .gallery .box2", ".featured .gallery .box3", ".featured.gallery .box4"])
+
+scrollTirggerAnimation(".travel", [".travel .box1", ".travel .box2", ".travel .box3"]);
