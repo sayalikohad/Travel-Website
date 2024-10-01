@@ -56,10 +56,10 @@ function swipeAnimation(triggerSelector, boxSelectors) {
             trigger: triggerSelector,
             start: "top 50%",
             end: "top 100%",
-            scrub: 1,
+            scrub: 3,
         },
     });
-    boxSelectors.forEach((boxSelectors) => {
+    boxSelectors.forEach((boxSelector) => {
         timeline.to(boxSelector, {
             x: 0,
             duration: 1,
