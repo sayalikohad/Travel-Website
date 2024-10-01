@@ -99,7 +99,9 @@ scrollTirggerAnimation(".feedback .container", [".feedback .label", ".feedback .
 
 scrollTirggerAnimation(".article", [".article .label", ".article .heading"]);
 
-swipeAnimation(".destinatons", [".destinatons .heading", ".destinatons .content"]);
+swipeAnimation(".destinatons", [".destinatons .heading", ".destinatons .content"])
+
+swipeAnimation()
 
 galleryAnimation(".destinatons .gallery", [".destinatons .gallery .box1", ".destinatons .gallery .box2", ".destinatons .gallery .box3", ".destinatons .gallery .box4", ".destinatons .gallery .box5"])
 
