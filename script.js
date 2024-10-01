@@ -95,7 +95,7 @@ animateContent([".home .content h5, .home .content h1, .home .content p, .home .
 
 scrollTirggerAnimation(".travel", [".travel .box1", ".travel .box2", ".travel .box3"]);
 
-scrollTirggerAnimation(".feedback .container", [".feedback .label", ".feedback .heading",])
+scrollTirggerAnimation(".feedback .container", [".feedback .label", ".feedback .heading", ".feedback .heading",]);
 
 swipeAnimation(".destinatons", [".destinatons .heading", ".destinatons .content"]);
 
