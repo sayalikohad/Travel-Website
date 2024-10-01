@@ -101,4 +101,4 @@ swipeAnimation(".destinatons", [".destinatons .heading", ".destinatons .content"
 
 galleryAnimation(".destinatons .gallery", [".destinatons .gallery .box1", ".destinatons .gallery .box2", ".destinatons .gallery .box3", ".destinatons .gallery .box4", ".destinatons .gallery .box5"])
 
-galleryAnimation(".featured .gallery", [".destinatons .gallery .box1", ".destinatons .gallery .box2", ".destinatons .gallery .box3", ".destinatons .gallery .box4", ".destinatons .gallery .box5"])
+galleryAnimation(".featured .gallery", [".featured .gallery .box1", ".destinatons .gallery .box2", ".destinatons .gallery .box3", ".destinatons .gallery .box4", ".destinatons .gallery .box5"])
