@@ -101,7 +101,7 @@ scrollTirggerAnimation(".article", [".article .label", ".article .heading"]);
 
 swipeAnimation(".destinatons", [".destinatons .heading", ".destinatons .content"])
 
-swipeAnimation(".article", [".article .latest-article",])
+swipeAnimation(".article", [".article .latest-article", ".article .box1",])
 
 galleryAnimation(".destinatons .gallery", [".destinatons .gallery .box1", ".destinatons .gallery .box2", ".destinatons .gallery .box3", ".destinatons .gallery .box4", ".destinatons .gallery .box5"])
 
