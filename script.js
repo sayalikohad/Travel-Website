@@ -97,6 +97,8 @@ scrollTirggerAnimation(".travel", [".travel .box1", ".travel .box2", ".travel .b
 
 scrollTirggerAnimation(".feedback .container", [".feedback .label", ".feedback .heading", ".feedback .heading",]);
 
+scrollTirggerAnimation()
+
 swipeAnimation(".destinatons", [".destinatons .heading", ".destinatons .content"]);
 
 galleryAnimation(".destinatons .gallery", [".destinatons .gallery .box1", ".destinatons .gallery .box2", ".destinatons .gallery .box3", ".destinatons .gallery .box4", ".destinatons .gallery .box5"])
