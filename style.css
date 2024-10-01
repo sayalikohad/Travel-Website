@@ -458,10 +458,6 @@ section.home {
     color: var(--white-color);
 }
 
-.featured .gallery .box {
-    transform: translate(0, 100px);
-    opacity: 0;
-}
 /*featured section ends here*/
 
 /*feedback section starts here*/
